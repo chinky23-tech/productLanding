@@ -1,0 +1,232 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+.navbar{
+    background-color: whitesmoke;
+    padding:10px;
+    display: flex;
+    padding-top: 15px;
+    justify-content:space-between;
+    text-align: center;
+    align-items: center;
+}
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    
+}
+.logo{
+    font-weight: 800;
+}
+li a{
+    padding: 10px;
+    color:#000;
+    text-decoration: none;
+}
+
+.search-bar {
+    position: relative; /* Enables absolute positioning for children */
+    display: flex; /* Align items */
+    width:100%;
+    max-width: 280px;
+    border:  rgb(226, 226, 226);
+    
+    
+    
+}
+
+.search-bar input{
+    
+padding: 10px 30px;
+border: 1px solid  whitesmoke;
+
+    border-radius: 20px; /* Rounded corners */
+    width: 100%; /* Full width */
+    height:20px;
+    font-size: 14px;
+    padding: 15px;
+    
+}
+.search-bar i {
+    position: absolute; /* Position the icon absolutely */
+    left:  23px; /* Position from the left */
+    top: 48%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for centering */
+    color: #000; /* Icon color */
+    font-size: 14px; /* Icon size */
+    margin-left: 16em;
+}
+#search{
+    background-color:  rgb(226, 226, 226);
+margin-left:10pxss;
+    font-size:  16px;
+    
+}
+.hero-section{
+    position: relative;
+}
+.hero {
+    display: grid;
+    text-align: center;
+}
+
+.hero-image-container {
+    position: relative;
+    width: 100%; /* Adjust based on the number of images */
+}
+
+.hero-img{
+    width: 100%;
+    height: auto;
+}
+
+/* style header para button on hero image */
+.header1{
+    font-size: 17px;
+    margin: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.smart1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+.btn1{
+    margin: 20px;
+    padding: 16px 25px 16px 25px;
+    border: 1px solid  purple;
+    border-radius:  40px;
+    font-weight: 800;
+    font-size: 15px;
+    background-color: purple;
+    color: white;
+}
+.smart2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+.btn2{
+    margin: 20px;
+    padding: 12px 17px 12px 17px;
+    border: 1px solid white;
+    border-radius:  40px;
+    font-weight: 800;
+    font-size: 15px;
+    color:purple;
+}
+.btn3{
+    margin: 30px;
+    padding: 12px 17px 12px 17px;
+    border: 1px solid  peru;
+    border-radius:  40px;
+    font-weight: 800;
+    font-size: 15px;
+    color: white;
+    background-color:  peru;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.hero-image-container .overlay {
+    opacity: 1;
+}
+
+
+
+#hero-img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#hero-img{
+    width: 100%;
+    height:  600px;
+    
+    
+}
+
+.image-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Adjust number of columns as needed */
+    gap: 10px; /* Adjust gap between images */
+    margin: 20px;
+    
+}
+
+
+.grid-img {
+    width: 100%;
+    height: 600px;
+    display: block; /* Ensure images are block elements */
+    border-radius: 20px;;
+    
+}
+.text{
+
+    
+    position: relative;
+    top: -80px;
+    color: white;
+    left: 30px;
+    
+}
+
+
+footer{
+    padding: 80px;
+    background-color:rgb(228, 228, 228);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .copyright{
+   margin-left: 30em;
+   position: relative;
+   top:40px;
+   left:40px;
+   font-weight: 900;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0a0a0a;
+    
+  }
+  .f-list{
+    margin-left: 50px;
+  
+  }
+  li{
+    color:rgb(8, 8, 8);
+    margin-left: 30px;
+    
+  }
+  .f-header{
+    color: #000000;
+    padding: 20px;
+    font-size: 16px;
+  }
+.fa-brands{
+    margin-left:  18px;
+    
+}
